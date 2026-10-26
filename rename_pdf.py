@@ -4,7 +4,7 @@ from pypdf import PdfReader
 
 # ================= 配置区 =================
 submissions_dir = 'test'   # 存放 PDF 的文件夹名称
-quiz_name = 'Quiz1'        # Quiz 名称（如 Quiz2, Quiz3）
+quiz_name = 'Final'        # Quiz 名称（如 Quiz2, Quiz3）
 # =========================================
 
 if not os.path.exists(submissions_dir):
